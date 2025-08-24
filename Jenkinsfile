@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'java -version'  // para confirmar a versão do java usada
+                sh 'java -version'
             }
         }
     }
